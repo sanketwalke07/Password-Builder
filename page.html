@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="copy.js"></script>
+    <script src="pw.js"></script>
+</head>
+<body>
+    <div class="entirebox">
+        <form action="connect.php" method="post">
+        <div class ="account">
+            <label for="account_name">Account: </label>
+            <input type="text" id="account_name_id" name="account_name" required>
+        </div>
+        <div class ="username">
+            <label for="user_name">User Name: </label>
+            <input type="text" id="user_name_id" name="user_name" required>
+        </div>    
+    </form>
+        <div class="generatebutton">
+            <button onclick="generateRandomString(15)"> Generate Password</button>
+        </div>
+        <div class ="password">
+            <label for="Password">Generated Password: </label>
+            <br>
+            <output name="sumresult"></output>
+        </div>    
+        <div class="copy">
+            <button onclick="myFunction()">Copy Password</button>
+        </div>
+    </div>
+</body>
+</html> 

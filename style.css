@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+.entirebox{
+    /* background-color: black; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.account{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    left: 10px;
+
+}
+
+.username{
+    text-align: center;    
+    padding: 10px;
+    color: white;
+    left: 10px;
+}
+
+.generatebutton{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.password{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.copy{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
